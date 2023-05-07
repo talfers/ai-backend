@@ -1,5 +1,5 @@
 import sys 
-from log import logging
+from log_cli import logging
 
 logger = logging.getLogger('terminal.py')
 
