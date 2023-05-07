@@ -17,10 +17,7 @@ tasks = [
 ]
 tasks2 = 'Using the dataset you just created, write code to calculate the mean of the `total_sales_usd` column. Also include the result of the calculation.'
 
-try:
-    # system_msg = terminal.read_system_msg()
-    # new_tasks = terminal.read_tasks()
-        
+try:    
     # TEST REQUEST #1
     try:
         r = ai.define_model(system_msg, tasks)

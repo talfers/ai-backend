@@ -25,9 +25,9 @@ def home_route():
     return res
 
 
-# Webhook route
+# Director route
 @server.route('/direct', methods=['POST'])
-def direct_route():
+def director_route():
     try:
         # {"system_msg": str, "user_ai_msgs": list}
         response_object = ai.process_request(request)
